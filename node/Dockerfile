@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install -g
+RUN npm install
 
 ENV DOCKERIZE_VERSION v0.8.0
 
